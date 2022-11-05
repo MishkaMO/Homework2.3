@@ -8,5 +8,7 @@ public class Main {
         System.out.println ("общий вес бойцов " + totalWeghtBoxer + "кг " );
         var weightDifference = weghtBoxer2 - weghtBoxer1;
         System.out.println("Разница веса бойцов " + weightDifference + "кг ");
+        var divisionRemainder = (weghtBoxer2 + weghtBoxer1) % weightDifference;
+        System.out.println("Разница веса " + divisionRemainder + "кг ");
     }
 }
